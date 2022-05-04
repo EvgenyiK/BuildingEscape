@@ -31,4 +31,8 @@ protected:
 
 	void Grab();
 	void Release();
+	void FindPhysicsHandleComponent();
+	void SetupInputComponent();
+	// Return hit for first physics body in reach
+	const FHitResult GetFirstPhysicsBodyInReach();
 };
