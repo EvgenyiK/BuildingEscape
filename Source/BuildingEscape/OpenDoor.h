@@ -39,6 +39,7 @@ private:
 
 	float LastDoorOpenTime;
 
+	float GetTotalMassOfActorsOnPlate();
+
 	AActor* Owner; //The owning door
-	AActor* ActorThatOpens;  // pawn inherits in actor..
 };
